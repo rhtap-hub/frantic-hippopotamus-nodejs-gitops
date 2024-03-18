@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: frantic-hippopotamus-nodejs-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/frantic-hippopotamus-nodejs-gitops
